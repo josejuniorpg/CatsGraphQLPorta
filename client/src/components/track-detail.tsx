@@ -62,7 +62,7 @@ const TrackDetail: React.FC<{track: any}> = ({track}) => {
             <StyledLink to={`./module/${modules[0]['id']}`}>
               <Button
                 icon={<IconRun width="20px" />}
-                color={colors.pink.base}
+                color={colors.teal.base}
                 size="large"
               >
                 Start Track
@@ -173,7 +173,7 @@ const IconAndLabel = styled.div({
     maxHeight: 16,
   },
   '#viewCount': {
-    color: colors.pink.base,
+    color: colors.teal.base,
   },
 });
 

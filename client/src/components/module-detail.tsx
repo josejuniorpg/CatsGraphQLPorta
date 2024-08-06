@@ -41,7 +41,7 @@ const TopSection = styled.div({
   justifyContent: 'center',
   backgroundColor: colors.black.base,
   padding: 20,
-  borderBottom: `solid 1px ${colors.pink.base}`,
+  borderBottom: `solid 1px ${colors.teal.base}`,
 });
 
 const TopContainer = styled.div(({ totalWidth }: { totalWidth: number }) => ({
@@ -64,5 +64,5 @@ const ModuleTitle = styled.h1({
   marginBottom: 30,
   paddingBottom: 10,
   color: colors.black.lighter,
-  borderBottom: `solid 1px ${colors.pink.base}`,
+  borderBottom: `solid 1px ${colors.teal.base}`,
 });

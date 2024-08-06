@@ -90,7 +90,7 @@ const CardContainer = styled(Link)({
   overflow: "hidden",
   position: "relative",
   ":hover": {
-    backgroundColor: colors.pink.lightest,
+    backgroundColor: colors.teal.lightest,
   },
   cursor: "pointer",
   textDecoration: "none",
@@ -122,7 +122,7 @@ const CardImageContainer = styled.div({
     bottom: 0,
     left: 0,
     right: 0,
-    background: "rgba(250,0,150,0.20)",
+    background: "rgba(65,217,211,0.25)",
   },
 });
 
